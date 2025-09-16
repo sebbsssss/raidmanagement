@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  color: #f5f5f5;
+  background-color: #000000;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #000000;
+  color: #f5f5f5;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+/* Dark theme custom styles */
+.dark-card {
+  background-color: #1a1a1a;
+  border: 1px solid #333333;
+  color: #f5f5f5;
+}
+
+.dark-input {
+  background-color: #1a1a1a;
+  border: 1px solid #333333;
+  color: #f5f5f5;
+}
+
+.dark-input::placeholder {
+  color: #888888;
+}
+
+.dark-button {
+  background-color: #333333;
+  color: #f5f5f5;
+  border: 1px solid #444444;
+}
+
+.dark-button:hover {
+  background-color: #444444;
+}
+
+.dark-text {
+  color: #f5f5f5;
+}
+
+.dark-text-muted {
+  color: #888888;
+}
